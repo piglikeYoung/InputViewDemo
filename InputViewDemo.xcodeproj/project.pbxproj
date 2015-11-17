@@ -8,24 +8,113 @@
 
 /* Begin PBXBuildFile section */
 		7D96A8FE1BFB2A8400B7625B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A8FD1BFB2A8400B7625B /* main.m */; };
-		7D96A9011BFB2A8400B7625B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9001BFB2A8400B7625B /* AppDelegate.m */; };
-		7D96A9041BFB2A8400B7625B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9031BFB2A8400B7625B /* ViewController.m */; };
 		7D96A9071BFB2A8400B7625B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D96A9051BFB2A8400B7625B /* Main.storyboard */; };
 		7D96A9091BFB2A8400B7625B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D96A9081BFB2A8400B7625B /* Assets.xcassets */; };
 		7D96A90C1BFB2A8400B7625B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D96A90A1BFB2A8400B7625B /* LaunchScreen.storyboard */; };
+		7D96A95E1BFB2ABC00B7625B /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9181BFB2ABC00B7625B /* NSString+Emoji.m */; };
+		7D96A95F1BFB2ABC00B7625B /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A91A1BFB2ABC00B7625B /* UIImage+Extension.m */; };
+		7D96A9601BFB2ABC00B7625B /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A91C1BFB2ABC00B7625B /* UIView+Extension.m */; };
+		7D96A9611BFB2ABC00B7625B /* JHComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A91F1BFB2ABC00B7625B /* JHComposeViewController.m */; };
+		7D96A9621BFB2ABC00B7625B /* JHMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9231BFB2ABC00B7625B /* JHMacro.m */; };
+		7D96A9631BFB2ABC00B7625B /* JHEmotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9261BFB2ABC00B7625B /* JHEmotion.m */; };
+		7D96A9641BFB2ABC00B7625B /* JHEmotionAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9281BFB2ABC00B7625B /* JHEmotionAttachment.m */; };
+		7D96A9651BFB2ABC00B7625B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A92B1BFB2ABC00B7625B /* AppDelegate.m */; };
+		7D96A9661BFB2ABC00B7625B /* MJDictionaryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A92E1BFB2ABC00B7625B /* MJDictionaryCache.m */; };
+		7D96A9671BFB2ABC00B7625B /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9311BFB2ABC00B7625B /* MJExtensionConst.m */; };
+		7D96A9681BFB2ABC00B7625B /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9331BFB2ABC00B7625B /* MJFoundation.m */; };
+		7D96A9691BFB2ABC00B7625B /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9351BFB2ABC00B7625B /* MJProperty.m */; };
+		7D96A96A1BFB2ABC00B7625B /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9371BFB2ABC00B7625B /* MJPropertyKey.m */; };
+		7D96A96B1BFB2ABC00B7625B /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9391BFB2ABC00B7625B /* MJPropertyType.m */; };
+		7D96A96C1BFB2ABC00B7625B /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A93B1BFB2ABC00B7625B /* NSObject+MJClass.m */; };
+		7D96A96D1BFB2ABC00B7625B /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A93D1BFB2ABC00B7625B /* NSObject+MJCoding.m */; };
+		7D96A96E1BFB2ABC00B7625B /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A93F1BFB2ABC00B7625B /* NSObject+MJKeyValue.m */; };
+		7D96A96F1BFB2ABC00B7625B /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9411BFB2ABC00B7625B /* NSObject+MJProperty.m */; };
+		7D96A9701BFB2ABC00B7625B /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9431BFB2ABC00B7625B /* NSString+MJExtension.m */; };
+		7D96A9711BFB2ABC00B7625B /* JHEmotionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9461BFB2ABC00B7625B /* JHEmotionTool.m */; };
+		7D96A9721BFB2ABC00B7625B /* JHEmotionGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A94A1BFB2ABC00B7625B /* JHEmotionGridView.m */; };
+		7D96A9731BFB2ABC00B7625B /* JHEmotionKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A94C1BFB2ABC00B7625B /* JHEmotionKeyboard.m */; };
+		7D96A9741BFB2ABC00B7625B /* JHEmotionListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A94E1BFB2ABC00B7625B /* JHEmotionListView.m */; };
+		7D96A9751BFB2ABC00B7625B /* JHEmotionPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9501BFB2ABC00B7625B /* JHEmotionPopView.m */; };
+		7D96A9761BFB2ABC00B7625B /* JHEmotionPopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D96A9511BFB2ABC00B7625B /* JHEmotionPopView.xib */; };
+		7D96A9771BFB2ABC00B7625B /* JHEmotionTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9531BFB2ABC00B7625B /* JHEmotionTextView.m */; };
+		7D96A9781BFB2ABC00B7625B /* JHEmotionToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9551BFB2ABC00B7625B /* JHEmotionToolbar.m */; };
+		7D96A9791BFB2ABC00B7625B /* JHEmotionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9571BFB2ABC00B7625B /* JHEmotionView.m */; };
+		7D96A97A1BFB2ABC00B7625B /* JHComposePhotosView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9591BFB2ABC00B7625B /* JHComposePhotosView.m */; };
+		7D96A97B1BFB2ABC00B7625B /* JHComposeToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A95B1BFB2ABC00B7625B /* JHComposeToolbar.m */; };
+		7D96A97C1BFB2ABC00B7625B /* JHTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A95D1BFB2ABC00B7625B /* JHTextView.m */; };
+		7D96A97E1BFB2B0400B7625B /* EmotionIcons in Resources */ = {isa = PBXBuildFile; fileRef = 7D96A97D1BFB2B0400B7625B /* EmotionIcons */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7D96A8F91BFB2A8400B7625B /* InputViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InputViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D96A8FD1BFB2A8400B7625B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7D96A8FF1BFB2A8400B7625B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		7D96A9001BFB2A8400B7625B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7D96A9021BFB2A8400B7625B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7D96A9031BFB2A8400B7625B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7D96A9061BFB2A8400B7625B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D96A9081BFB2A8400B7625B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D96A90B1BFB2A8400B7625B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D96A90D1BFB2A8400B7625B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D96A9171BFB2ABC00B7625B /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
+		7D96A9181BFB2ABC00B7625B /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
+		7D96A9191BFB2ABC00B7625B /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		7D96A91A1BFB2ABC00B7625B /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		7D96A91B1BFB2ABC00B7625B /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		7D96A91C1BFB2ABC00B7625B /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		7D96A91E1BFB2ABC00B7625B /* JHComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHComposeViewController.h; sourceTree = "<group>"; };
+		7D96A91F1BFB2ABC00B7625B /* JHComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHComposeViewController.m; sourceTree = "<group>"; };
+		7D96A9221BFB2ABC00B7625B /* JHMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHMacro.h; sourceTree = "<group>"; };
+		7D96A9231BFB2ABC00B7625B /* JHMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHMacro.m; sourceTree = "<group>"; };
+		7D96A9251BFB2ABC00B7625B /* JHEmotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotion.h; sourceTree = "<group>"; };
+		7D96A9261BFB2ABC00B7625B /* JHEmotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotion.m; sourceTree = "<group>"; };
+		7D96A9271BFB2ABC00B7625B /* JHEmotionAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionAttachment.h; sourceTree = "<group>"; };
+		7D96A9281BFB2ABC00B7625B /* JHEmotionAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionAttachment.m; sourceTree = "<group>"; };
+		7D96A92A1BFB2ABC00B7625B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D96A92B1BFB2ABC00B7625B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D96A92D1BFB2ABC00B7625B /* MJDictionaryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDictionaryCache.h; sourceTree = "<group>"; };
+		7D96A92E1BFB2ABC00B7625B /* MJDictionaryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDictionaryCache.m; sourceTree = "<group>"; };
+		7D96A92F1BFB2ABC00B7625B /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		7D96A9301BFB2ABC00B7625B /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		7D96A9311BFB2ABC00B7625B /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		7D96A9321BFB2ABC00B7625B /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		7D96A9331BFB2ABC00B7625B /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		7D96A9341BFB2ABC00B7625B /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		7D96A9351BFB2ABC00B7625B /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		7D96A9361BFB2ABC00B7625B /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		7D96A9371BFB2ABC00B7625B /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		7D96A9381BFB2ABC00B7625B /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		7D96A9391BFB2ABC00B7625B /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		7D96A93A1BFB2ABC00B7625B /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		7D96A93B1BFB2ABC00B7625B /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		7D96A93C1BFB2ABC00B7625B /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		7D96A93D1BFB2ABC00B7625B /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		7D96A93E1BFB2ABC00B7625B /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		7D96A93F1BFB2ABC00B7625B /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		7D96A9401BFB2ABC00B7625B /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		7D96A9411BFB2ABC00B7625B /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		7D96A9421BFB2ABC00B7625B /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		7D96A9431BFB2ABC00B7625B /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		7D96A9451BFB2ABC00B7625B /* JHEmotionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionTool.h; sourceTree = "<group>"; };
+		7D96A9461BFB2ABC00B7625B /* JHEmotionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionTool.m; sourceTree = "<group>"; };
+		7D96A9491BFB2ABC00B7625B /* JHEmotionGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionGridView.h; sourceTree = "<group>"; };
+		7D96A94A1BFB2ABC00B7625B /* JHEmotionGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionGridView.m; sourceTree = "<group>"; };
+		7D96A94B1BFB2ABC00B7625B /* JHEmotionKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionKeyboard.h; sourceTree = "<group>"; };
+		7D96A94C1BFB2ABC00B7625B /* JHEmotionKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionKeyboard.m; sourceTree = "<group>"; };
+		7D96A94D1BFB2ABC00B7625B /* JHEmotionListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionListView.h; sourceTree = "<group>"; };
+		7D96A94E1BFB2ABC00B7625B /* JHEmotionListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionListView.m; sourceTree = "<group>"; };
+		7D96A94F1BFB2ABC00B7625B /* JHEmotionPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionPopView.h; sourceTree = "<group>"; };
+		7D96A9501BFB2ABC00B7625B /* JHEmotionPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionPopView.m; sourceTree = "<group>"; };
+		7D96A9511BFB2ABC00B7625B /* JHEmotionPopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHEmotionPopView.xib; sourceTree = "<group>"; };
+		7D96A9521BFB2ABC00B7625B /* JHEmotionTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionTextView.h; sourceTree = "<group>"; };
+		7D96A9531BFB2ABC00B7625B /* JHEmotionTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionTextView.m; sourceTree = "<group>"; };
+		7D96A9541BFB2ABC00B7625B /* JHEmotionToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionToolbar.h; sourceTree = "<group>"; };
+		7D96A9551BFB2ABC00B7625B /* JHEmotionToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionToolbar.m; sourceTree = "<group>"; };
+		7D96A9561BFB2ABC00B7625B /* JHEmotionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionView.h; sourceTree = "<group>"; };
+		7D96A9571BFB2ABC00B7625B /* JHEmotionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionView.m; sourceTree = "<group>"; };
+		7D96A9581BFB2ABC00B7625B /* JHComposePhotosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHComposePhotosView.h; sourceTree = "<group>"; };
+		7D96A9591BFB2ABC00B7625B /* JHComposePhotosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHComposePhotosView.m; sourceTree = "<group>"; };
+		7D96A95A1BFB2ABC00B7625B /* JHComposeToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHComposeToolbar.h; sourceTree = "<group>"; };
+		7D96A95B1BFB2ABC00B7625B /* JHComposeToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHComposeToolbar.m; sourceTree = "<group>"; };
+		7D96A95C1BFB2ABC00B7625B /* JHTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTextView.h; sourceTree = "<group>"; };
+		7D96A95D1BFB2ABC00B7625B /* JHTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTextView.m; sourceTree = "<group>"; };
+		7D96A97D1BFB2B0400B7625B /* EmotionIcons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = EmotionIcons; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +147,7 @@
 		7D96A8FB1BFB2A8400B7625B /* InputViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				7D96A8FF1BFB2A8400B7625B /* AppDelegate.h */,
-				7D96A9001BFB2A8400B7625B /* AppDelegate.m */,
-				7D96A9021BFB2A8400B7625B /* ViewController.h */,
-				7D96A9031BFB2A8400B7625B /* ViewController.m */,
+				7D96A9151BFB2ABC00B7625B /* Classes */,
 				7D96A9051BFB2A8400B7625B /* Main.storyboard */,
 				7D96A9081BFB2A8400B7625B /* Assets.xcassets */,
 				7D96A90A1BFB2A8400B7625B /* LaunchScreen.storyboard */,
@@ -74,9 +160,159 @@
 		7D96A8FC1BFB2A8400B7625B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7D96A97D1BFB2B0400B7625B /* EmotionIcons */,
 				7D96A8FD1BFB2A8400B7625B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D96A9151BFB2ABC00B7625B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7D96A9161BFB2ABC00B7625B /* Category */,
+				7D96A91D1BFB2ABC00B7625B /* Controllers */,
+				7D96A9201BFB2ABC00B7625B /* InputView */,
+				7D96A9211BFB2ABC00B7625B /* Macro */,
+				7D96A9241BFB2ABC00B7625B /* Model */,
+				7D96A9291BFB2ABC00B7625B /* Others */,
+				7D96A9441BFB2ABC00B7625B /* Tool */,
+				7D96A9471BFB2ABC00B7625B /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7D96A9161BFB2ABC00B7625B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7D96A9171BFB2ABC00B7625B /* NSString+Emoji.h */,
+				7D96A9181BFB2ABC00B7625B /* NSString+Emoji.m */,
+				7D96A9191BFB2ABC00B7625B /* UIImage+Extension.h */,
+				7D96A91A1BFB2ABC00B7625B /* UIImage+Extension.m */,
+				7D96A91B1BFB2ABC00B7625B /* UIView+Extension.h */,
+				7D96A91C1BFB2ABC00B7625B /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7D96A91D1BFB2ABC00B7625B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7D96A91E1BFB2ABC00B7625B /* JHComposeViewController.h */,
+				7D96A91F1BFB2ABC00B7625B /* JHComposeViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7D96A9201BFB2ABC00B7625B /* InputView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InputView;
+			sourceTree = "<group>";
+		};
+		7D96A9211BFB2ABC00B7625B /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				7D96A9221BFB2ABC00B7625B /* JHMacro.h */,
+				7D96A9231BFB2ABC00B7625B /* JHMacro.m */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		7D96A9241BFB2ABC00B7625B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D96A9251BFB2ABC00B7625B /* JHEmotion.h */,
+				7D96A9261BFB2ABC00B7625B /* JHEmotion.m */,
+				7D96A9271BFB2ABC00B7625B /* JHEmotionAttachment.h */,
+				7D96A9281BFB2ABC00B7625B /* JHEmotionAttachment.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7D96A9291BFB2ABC00B7625B /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				7D96A92A1BFB2ABC00B7625B /* AppDelegate.h */,
+				7D96A92B1BFB2ABC00B7625B /* AppDelegate.m */,
+				7D96A92C1BFB2ABC00B7625B /* MJExtension */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		7D96A92C1BFB2ABC00B7625B /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				7D96A92D1BFB2ABC00B7625B /* MJDictionaryCache.h */,
+				7D96A92E1BFB2ABC00B7625B /* MJDictionaryCache.m */,
+				7D96A92F1BFB2ABC00B7625B /* MJExtension.h */,
+				7D96A9301BFB2ABC00B7625B /* MJExtensionConst.h */,
+				7D96A9311BFB2ABC00B7625B /* MJExtensionConst.m */,
+				7D96A9321BFB2ABC00B7625B /* MJFoundation.h */,
+				7D96A9331BFB2ABC00B7625B /* MJFoundation.m */,
+				7D96A9341BFB2ABC00B7625B /* MJProperty.h */,
+				7D96A9351BFB2ABC00B7625B /* MJProperty.m */,
+				7D96A9361BFB2ABC00B7625B /* MJPropertyKey.h */,
+				7D96A9371BFB2ABC00B7625B /* MJPropertyKey.m */,
+				7D96A9381BFB2ABC00B7625B /* MJPropertyType.h */,
+				7D96A9391BFB2ABC00B7625B /* MJPropertyType.m */,
+				7D96A93A1BFB2ABC00B7625B /* NSObject+MJClass.h */,
+				7D96A93B1BFB2ABC00B7625B /* NSObject+MJClass.m */,
+				7D96A93C1BFB2ABC00B7625B /* NSObject+MJCoding.h */,
+				7D96A93D1BFB2ABC00B7625B /* NSObject+MJCoding.m */,
+				7D96A93E1BFB2ABC00B7625B /* NSObject+MJKeyValue.h */,
+				7D96A93F1BFB2ABC00B7625B /* NSObject+MJKeyValue.m */,
+				7D96A9401BFB2ABC00B7625B /* NSObject+MJProperty.h */,
+				7D96A9411BFB2ABC00B7625B /* NSObject+MJProperty.m */,
+				7D96A9421BFB2ABC00B7625B /* NSString+MJExtension.h */,
+				7D96A9431BFB2ABC00B7625B /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		7D96A9441BFB2ABC00B7625B /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				7D96A9451BFB2ABC00B7625B /* JHEmotionTool.h */,
+				7D96A9461BFB2ABC00B7625B /* JHEmotionTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		7D96A9471BFB2ABC00B7625B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7D96A9481BFB2ABC00B7625B /* EmotionKeyboard */,
+				7D96A9581BFB2ABC00B7625B /* JHComposePhotosView.h */,
+				7D96A9591BFB2ABC00B7625B /* JHComposePhotosView.m */,
+				7D96A95A1BFB2ABC00B7625B /* JHComposeToolbar.h */,
+				7D96A95B1BFB2ABC00B7625B /* JHComposeToolbar.m */,
+				7D96A95C1BFB2ABC00B7625B /* JHTextView.h */,
+				7D96A95D1BFB2ABC00B7625B /* JHTextView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7D96A9481BFB2ABC00B7625B /* EmotionKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7D96A9491BFB2ABC00B7625B /* JHEmotionGridView.h */,
+				7D96A94A1BFB2ABC00B7625B /* JHEmotionGridView.m */,
+				7D96A94B1BFB2ABC00B7625B /* JHEmotionKeyboard.h */,
+				7D96A94C1BFB2ABC00B7625B /* JHEmotionKeyboard.m */,
+				7D96A94D1BFB2ABC00B7625B /* JHEmotionListView.h */,
+				7D96A94E1BFB2ABC00B7625B /* JHEmotionListView.m */,
+				7D96A94F1BFB2ABC00B7625B /* JHEmotionPopView.h */,
+				7D96A9501BFB2ABC00B7625B /* JHEmotionPopView.m */,
+				7D96A9511BFB2ABC00B7625B /* JHEmotionPopView.xib */,
+				7D96A9521BFB2ABC00B7625B /* JHEmotionTextView.h */,
+				7D96A9531BFB2ABC00B7625B /* JHEmotionTextView.m */,
+				7D96A9541BFB2ABC00B7625B /* JHEmotionToolbar.h */,
+				7D96A9551BFB2ABC00B7625B /* JHEmotionToolbar.m */,
+				7D96A9561BFB2ABC00B7625B /* JHEmotionView.h */,
+				7D96A9571BFB2ABC00B7625B /* JHEmotionView.m */,
+			);
+			path = EmotionKeyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +372,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D96A97E1BFB2B0400B7625B /* EmotionIcons in Resources */,
+				7D96A9761BFB2ABC00B7625B /* JHEmotionPopView.xib in Resources */,
 				7D96A90C1BFB2A8400B7625B /* LaunchScreen.storyboard in Resources */,
 				7D96A9091BFB2A8400B7625B /* Assets.xcassets in Resources */,
 				7D96A9071BFB2A8400B7625B /* Main.storyboard in Resources */,
@@ -149,9 +387,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D96A9041BFB2A8400B7625B /* ViewController.m in Sources */,
-				7D96A9011BFB2A8400B7625B /* AppDelegate.m in Sources */,
+				7D96A96D1BFB2ABC00B7625B /* NSObject+MJCoding.m in Sources */,
+				7D96A96B1BFB2ABC00B7625B /* MJPropertyType.m in Sources */,
+				7D96A9741BFB2ABC00B7625B /* JHEmotionListView.m in Sources */,
+				7D96A9671BFB2ABC00B7625B /* MJExtensionConst.m in Sources */,
+				7D96A97A1BFB2ABC00B7625B /* JHComposePhotosView.m in Sources */,
+				7D96A96A1BFB2ABC00B7625B /* MJPropertyKey.m in Sources */,
+				7D96A96E1BFB2ABC00B7625B /* NSObject+MJKeyValue.m in Sources */,
+				7D96A9711BFB2ABC00B7625B /* JHEmotionTool.m in Sources */,
+				7D96A9731BFB2ABC00B7625B /* JHEmotionKeyboard.m in Sources */,
+				7D96A9631BFB2ABC00B7625B /* JHEmotion.m in Sources */,
+				7D96A95F1BFB2ABC00B7625B /* UIImage+Extension.m in Sources */,
+				7D96A97C1BFB2ABC00B7625B /* JHTextView.m in Sources */,
+				7D96A9791BFB2ABC00B7625B /* JHEmotionView.m in Sources */,
+				7D96A97B1BFB2ABC00B7625B /* JHComposeToolbar.m in Sources */,
+				7D96A9681BFB2ABC00B7625B /* MJFoundation.m in Sources */,
+				7D96A9701BFB2ABC00B7625B /* NSString+MJExtension.m in Sources */,
+				7D96A9691BFB2ABC00B7625B /* MJProperty.m in Sources */,
+				7D96A9651BFB2ABC00B7625B /* AppDelegate.m in Sources */,
+				7D96A9781BFB2ABC00B7625B /* JHEmotionToolbar.m in Sources */,
+				7D96A9661BFB2ABC00B7625B /* MJDictionaryCache.m in Sources */,
+				7D96A9771BFB2ABC00B7625B /* JHEmotionTextView.m in Sources */,
+				7D96A9611BFB2ABC00B7625B /* JHComposeViewController.m in Sources */,
+				7D96A9721BFB2ABC00B7625B /* JHEmotionGridView.m in Sources */,
+				7D96A9621BFB2ABC00B7625B /* JHMacro.m in Sources */,
+				7D96A96F1BFB2ABC00B7625B /* NSObject+MJProperty.m in Sources */,
+				7D96A95E1BFB2ABC00B7625B /* NSString+Emoji.m in Sources */,
+				7D96A9601BFB2ABC00B7625B /* UIView+Extension.m in Sources */,
+				7D96A96C1BFB2ABC00B7625B /* NSObject+MJClass.m in Sources */,
+				7D96A9641BFB2ABC00B7625B /* JHEmotionAttachment.m in Sources */,
 				7D96A8FE1BFB2A8400B7625B /* main.m in Sources */,
+				7D96A9751BFB2ABC00B7625B /* JHEmotionPopView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
