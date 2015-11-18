@@ -34,6 +34,29 @@
     [window addSubview:self];
     
     // 3.设置位置
+    [UIView animateKeyframesWithDuration:0.3 delay:0.0 options:UIViewKeyframeAnimationOptionCalculationModeLinear
+                              animations:^{
+                                  [UIView addKeyframeWithRelativeStartTime:0.0
+                                                          relativeDuration:1/3.0
+                                                                animations:^{
+                                                                    self.emotionView.y = 18;
+                                                                }];
+                                  [UIView addKeyframeWithRelativeStartTime:1/3.0
+                                                          relativeDuration:1/3.0
+                                                                animations:^{
+                                                                    self.emotionView.y = 13;
+                                                                }];
+                                  [UIView addKeyframeWithRelativeStartTime:2/3.0
+                                                          relativeDuration:1/3.0
+                                                                animations:^{
+                                                                    self.emotionView.y = 15;
+                                                                }];
+                                  
+                              }
+                              completion:^(BOOL finished) {
+                                  
+                              }];
+    
     CGFloat centerX = fromEmotionView.centerX;// 表情按钮的X值
     CGFloat centerY = fromEmotionView.centerY - self.height * 0.5;
     CGPoint center = CGPointMake(centerX, centerY);

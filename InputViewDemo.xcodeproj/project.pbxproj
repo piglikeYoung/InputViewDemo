@@ -171,7 +171,6 @@
 			children = (
 				7D96A9161BFB2ABC00B7625B /* Category */,
 				7D96A91D1BFB2ABC00B7625B /* Controllers */,
-				7D96A9201BFB2ABC00B7625B /* InputView */,
 				7D96A9211BFB2ABC00B7625B /* Macro */,
 				7D96A9241BFB2ABC00B7625B /* Model */,
 				7D96A9291BFB2ABC00B7625B /* Others */,
@@ -201,13 +200,6 @@
 				7D96A91F1BFB2ABC00B7625B /* JHComposeViewController.m */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		7D96A9201BFB2ABC00B7625B /* InputView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = InputView;
 			sourceTree = "<group>";
 		};
 		7D96A9211BFB2ABC00B7625B /* Macro */ = {
@@ -566,6 +558,7 @@
 				7D96A9121BFB2A8400B7625B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

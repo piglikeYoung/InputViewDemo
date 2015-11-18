@@ -22,6 +22,8 @@
 
 @property (strong , nonatomic) JHEmotionPopView *popView;
 
+@property (nonatomic, weak) JHEmotionView *currentEmotionView;
+
 @end
 
 @implementation JHEmotionGridView
@@ -96,15 +98,26 @@
     // 2.检测触摸点落到哪个表情上
     JHEmotionView *emotionView = [self emotionViewWithPoint:point];
     
-    if (recognizer.state == UIGestureRecognizerStateEnded) { // 手松开了
+    // 如果是同一个表情不弹出
+    if (emotionView != _currentEmotionView) {
+        if (recognizer.state != UIGestureRecognizerStateEnded) { // 手没有松开
+            
+            // 显示表情弹出控件
+            [self.popView showFromEmotionView:emotionView];
+            
+            _currentEmotionView = emotionView;
+        }
+        
+    }
+    
+    if (recognizer.state == UIGestureRecognizerStateEnded) { // 手松开
         // 移除表情弹出控件
         [self.popView dismiss];
         
         // 选中表情
         [self selecteEmotion:emotionView.emotion];
-    } else { // 手没有松开
-        // 显示表情弹出控件
-        [self.popView showFromEmotionView:emotionView];
+        
+        _currentEmotionView = nil;
     }
 }
 
