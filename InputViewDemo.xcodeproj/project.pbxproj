@@ -7,17 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D0CD4241BFDB088001335B5 /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4001BFDB088001335B5 /* NSString+Emoji.m */; };
+		7D0CD4251BFDB088001335B5 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4021BFDB088001335B5 /* UIImage+Extension.m */; };
+		7D0CD4261BFDB088001335B5 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4041BFDB088001335B5 /* UIView+Extension.m */; };
+		7D0CD4271BFDB088001335B5 /* JHEmotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4071BFDB088001335B5 /* JHEmotion.m */; };
+		7D0CD4281BFDB088001335B5 /* JHEmotionAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4091BFDB088001335B5 /* JHEmotionAttachment.m */; };
+		7D0CD4291BFDB088001335B5 /* JHEmotionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD40C1BFDB088001335B5 /* JHEmotionTool.m */; };
+		7D0CD42A1BFDB088001335B5 /* JHEmotionGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4101BFDB088001335B5 /* JHEmotionGridView.m */; };
+		7D0CD42B1BFDB088001335B5 /* JHEmotionKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4121BFDB088001335B5 /* JHEmotionKeyboard.m */; };
+		7D0CD42C1BFDB088001335B5 /* JHEmotionListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4141BFDB088001335B5 /* JHEmotionListView.m */; };
+		7D0CD42D1BFDB088001335B5 /* JHEmotionPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4161BFDB088001335B5 /* JHEmotionPopView.m */; };
+		7D0CD42E1BFDB088001335B5 /* JHEmotionPopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D0CD4171BFDB088001335B5 /* JHEmotionPopView.xib */; };
+		7D0CD42F1BFDB088001335B5 /* JHEmotionTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4191BFDB088001335B5 /* JHEmotionTextView.m */; };
+		7D0CD4301BFDB088001335B5 /* JHEmotionToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD41B1BFDB088001335B5 /* JHEmotionToolbar.m */; };
+		7D0CD4311BFDB088001335B5 /* JHEmotionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD41D1BFDB088001335B5 /* JHEmotionView.m */; };
+		7D0CD4321BFDB088001335B5 /* JHComposePhotosView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD41F1BFDB088001335B5 /* JHComposePhotosView.m */; };
+		7D0CD4331BFDB088001335B5 /* JHComposeToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4211BFDB088001335B5 /* JHComposeToolbar.m */; };
+		7D0CD4341BFDB088001335B5 /* JHTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4231BFDB088001335B5 /* JHTextView.m */; };
+		7D0CD4381BFDB0F1001335B5 /* NIMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4371BFDB0F1001335B5 /* NIMViewController.m */; };
+		7D0CD4B51BFDB652001335B5 /* NIMKitResouce.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7D0CD4B41BFDB652001335B5 /* NIMKitResouce.bundle */; };
+		7D0CD4E21BFDB979001335B5 /* NSString+NIM.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4B81BFDB978001335B5 /* NSString+NIM.m */; };
+		7D0CD4E31BFDB979001335B5 /* UIImage+NIM.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4BA1BFDB978001335B5 /* UIImage+NIM.m */; };
+		7D0CD4E41BFDB979001335B5 /* UIView+NIM.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4BC1BFDB978001335B5 /* UIView+NIM.m */; };
+		7D0CD4E51BFDB979001335B5 /* NIMPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4BF1BFDB978001335B5 /* NIMPageView.m */; };
+		7D0CD4E61BFDB979001335B5 /* NTESSessionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4C21BFDB978001335B5 /* NTESSessionConfig.m */; };
+		7D0CD4E71BFDB979001335B5 /* NIMInputAudioRecordIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4C51BFDB978001335B5 /* NIMInputAudioRecordIndicatorView.m */; };
+		7D0CD4E81BFDB979001335B5 /* NIMInputEmoticonButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4C71BFDB978001335B5 /* NIMInputEmoticonButton.m */; };
+		7D0CD4E91BFDB979001335B5 /* NIMInputEmoticonContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4C91BFDB978001335B5 /* NIMInputEmoticonContainerView.m */; };
+		7D0CD4EA1BFDB979001335B5 /* NIMInputEmoticonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4CC1BFDB978001335B5 /* NIMInputEmoticonManager.m */; };
+		7D0CD4EB1BFDB979001335B5 /* NIMInputEmoticonTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4CE1BFDB978001335B5 /* NIMInputEmoticonTabView.m */; };
+		7D0CD4EC1BFDB979001335B5 /* NIMInputMoreContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4D01BFDB978001335B5 /* NIMInputMoreContainerView.m */; };
+		7D0CD4ED1BFDB979001335B5 /* NIMInputTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4D21BFDB978001335B5 /* NIMInputTextView.m */; };
+		7D0CD4EE1BFDB979001335B5 /* NIMInputToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4D41BFDB978001335B5 /* NIMInputToolBar.m */; };
+		7D0CD4EF1BFDB979001335B5 /* NIMInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4D61BFDB978001335B5 /* NIMInputView.m */; };
+		7D0CD4F01BFDB979001335B5 /* NIMMediaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4D91BFDB978001335B5 /* NIMMediaItem.m */; };
+		7D0CD4F11BFDB979001335B5 /* NIMUIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4DB1BFDB978001335B5 /* NIMUIConfig.m */; };
 		7D96A8FE1BFB2A8400B7625B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A8FD1BFB2A8400B7625B /* main.m */; };
 		7D96A9071BFB2A8400B7625B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D96A9051BFB2A8400B7625B /* Main.storyboard */; };
 		7D96A9091BFB2A8400B7625B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D96A9081BFB2A8400B7625B /* Assets.xcassets */; };
 		7D96A90C1BFB2A8400B7625B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D96A90A1BFB2A8400B7625B /* LaunchScreen.storyboard */; };
-		7D96A95E1BFB2ABC00B7625B /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9181BFB2ABC00B7625B /* NSString+Emoji.m */; };
-		7D96A95F1BFB2ABC00B7625B /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A91A1BFB2ABC00B7625B /* UIImage+Extension.m */; };
-		7D96A9601BFB2ABC00B7625B /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A91C1BFB2ABC00B7625B /* UIView+Extension.m */; };
 		7D96A9611BFB2ABC00B7625B /* JHComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A91F1BFB2ABC00B7625B /* JHComposeViewController.m */; };
 		7D96A9621BFB2ABC00B7625B /* JHMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9231BFB2ABC00B7625B /* JHMacro.m */; };
-		7D96A9631BFB2ABC00B7625B /* JHEmotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9261BFB2ABC00B7625B /* JHEmotion.m */; };
-		7D96A9641BFB2ABC00B7625B /* JHEmotionAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9281BFB2ABC00B7625B /* JHEmotionAttachment.m */; };
 		7D96A9651BFB2ABC00B7625B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A92B1BFB2ABC00B7625B /* AppDelegate.m */; };
 		7D96A9661BFB2ABC00B7625B /* MJDictionaryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A92E1BFB2ABC00B7625B /* MJDictionaryCache.m */; };
 		7D96A9671BFB2ABC00B7625B /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9311BFB2ABC00B7625B /* MJExtensionConst.m */; };
@@ -30,42 +60,96 @@
 		7D96A96E1BFB2ABC00B7625B /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A93F1BFB2ABC00B7625B /* NSObject+MJKeyValue.m */; };
 		7D96A96F1BFB2ABC00B7625B /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9411BFB2ABC00B7625B /* NSObject+MJProperty.m */; };
 		7D96A9701BFB2ABC00B7625B /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9431BFB2ABC00B7625B /* NSString+MJExtension.m */; };
-		7D96A9711BFB2ABC00B7625B /* JHEmotionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9461BFB2ABC00B7625B /* JHEmotionTool.m */; };
-		7D96A9721BFB2ABC00B7625B /* JHEmotionGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A94A1BFB2ABC00B7625B /* JHEmotionGridView.m */; };
-		7D96A9731BFB2ABC00B7625B /* JHEmotionKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A94C1BFB2ABC00B7625B /* JHEmotionKeyboard.m */; };
-		7D96A9741BFB2ABC00B7625B /* JHEmotionListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A94E1BFB2ABC00B7625B /* JHEmotionListView.m */; };
-		7D96A9751BFB2ABC00B7625B /* JHEmotionPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9501BFB2ABC00B7625B /* JHEmotionPopView.m */; };
-		7D96A9761BFB2ABC00B7625B /* JHEmotionPopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D96A9511BFB2ABC00B7625B /* JHEmotionPopView.xib */; };
-		7D96A9771BFB2ABC00B7625B /* JHEmotionTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9531BFB2ABC00B7625B /* JHEmotionTextView.m */; };
-		7D96A9781BFB2ABC00B7625B /* JHEmotionToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9551BFB2ABC00B7625B /* JHEmotionToolbar.m */; };
-		7D96A9791BFB2ABC00B7625B /* JHEmotionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9571BFB2ABC00B7625B /* JHEmotionView.m */; };
-		7D96A97A1BFB2ABC00B7625B /* JHComposePhotosView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A9591BFB2ABC00B7625B /* JHComposePhotosView.m */; };
-		7D96A97B1BFB2ABC00B7625B /* JHComposeToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A95B1BFB2ABC00B7625B /* JHComposeToolbar.m */; };
-		7D96A97C1BFB2ABC00B7625B /* JHTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A95D1BFB2ABC00B7625B /* JHTextView.m */; };
 		7D96A97E1BFB2B0400B7625B /* EmotionIcons in Resources */ = {isa = PBXBuildFile; fileRef = 7D96A97D1BFB2B0400B7625B /* EmotionIcons */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D0CD3FF1BFDB088001335B5 /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
+		7D0CD4001BFDB088001335B5 /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
+		7D0CD4011BFDB088001335B5 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		7D0CD4021BFDB088001335B5 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		7D0CD4031BFDB088001335B5 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		7D0CD4041BFDB088001335B5 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		7D0CD4061BFDB088001335B5 /* JHEmotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotion.h; sourceTree = "<group>"; };
+		7D0CD4071BFDB088001335B5 /* JHEmotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotion.m; sourceTree = "<group>"; };
+		7D0CD4081BFDB088001335B5 /* JHEmotionAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionAttachment.h; sourceTree = "<group>"; };
+		7D0CD4091BFDB088001335B5 /* JHEmotionAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionAttachment.m; sourceTree = "<group>"; };
+		7D0CD40B1BFDB088001335B5 /* JHEmotionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionTool.h; sourceTree = "<group>"; };
+		7D0CD40C1BFDB088001335B5 /* JHEmotionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionTool.m; sourceTree = "<group>"; };
+		7D0CD40F1BFDB088001335B5 /* JHEmotionGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionGridView.h; sourceTree = "<group>"; };
+		7D0CD4101BFDB088001335B5 /* JHEmotionGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionGridView.m; sourceTree = "<group>"; };
+		7D0CD4111BFDB088001335B5 /* JHEmotionKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionKeyboard.h; sourceTree = "<group>"; };
+		7D0CD4121BFDB088001335B5 /* JHEmotionKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionKeyboard.m; sourceTree = "<group>"; };
+		7D0CD4131BFDB088001335B5 /* JHEmotionListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionListView.h; sourceTree = "<group>"; };
+		7D0CD4141BFDB088001335B5 /* JHEmotionListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionListView.m; sourceTree = "<group>"; };
+		7D0CD4151BFDB088001335B5 /* JHEmotionPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionPopView.h; sourceTree = "<group>"; };
+		7D0CD4161BFDB088001335B5 /* JHEmotionPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionPopView.m; sourceTree = "<group>"; };
+		7D0CD4171BFDB088001335B5 /* JHEmotionPopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHEmotionPopView.xib; sourceTree = "<group>"; };
+		7D0CD4181BFDB088001335B5 /* JHEmotionTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionTextView.h; sourceTree = "<group>"; };
+		7D0CD4191BFDB088001335B5 /* JHEmotionTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionTextView.m; sourceTree = "<group>"; };
+		7D0CD41A1BFDB088001335B5 /* JHEmotionToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionToolbar.h; sourceTree = "<group>"; };
+		7D0CD41B1BFDB088001335B5 /* JHEmotionToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionToolbar.m; sourceTree = "<group>"; };
+		7D0CD41C1BFDB088001335B5 /* JHEmotionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionView.h; sourceTree = "<group>"; };
+		7D0CD41D1BFDB088001335B5 /* JHEmotionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionView.m; sourceTree = "<group>"; };
+		7D0CD41E1BFDB088001335B5 /* JHComposePhotosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHComposePhotosView.h; sourceTree = "<group>"; };
+		7D0CD41F1BFDB088001335B5 /* JHComposePhotosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHComposePhotosView.m; sourceTree = "<group>"; };
+		7D0CD4201BFDB088001335B5 /* JHComposeToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHComposeToolbar.h; sourceTree = "<group>"; };
+		7D0CD4211BFDB088001335B5 /* JHComposeToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHComposeToolbar.m; sourceTree = "<group>"; };
+		7D0CD4221BFDB088001335B5 /* JHTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTextView.h; sourceTree = "<group>"; };
+		7D0CD4231BFDB088001335B5 /* JHTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTextView.m; sourceTree = "<group>"; };
+		7D0CD4361BFDB0F1001335B5 /* NIMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMViewController.h; sourceTree = "<group>"; };
+		7D0CD4371BFDB0F1001335B5 /* NIMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIMViewController.m; sourceTree = "<group>"; };
+		7D0CD46A1BFDB276001335B5 /* NIMGlobalMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMGlobalMacro.h; sourceTree = "<group>"; };
+		7D0CD4771BFDB2A9001335B5 /* NIMSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMSession.h; sourceTree = "<group>"; };
+		7D0CD4B41BFDB652001335B5 /* NIMKitResouce.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NIMKitResouce.bundle; sourceTree = "<group>"; };
+		7D0CD4B71BFDB978001335B5 /* NSString+NIM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NIM.h"; sourceTree = "<group>"; };
+		7D0CD4B81BFDB978001335B5 /* NSString+NIM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NIM.m"; sourceTree = "<group>"; };
+		7D0CD4B91BFDB978001335B5 /* UIImage+NIM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NIM.h"; sourceTree = "<group>"; };
+		7D0CD4BA1BFDB978001335B5 /* UIImage+NIM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NIM.m"; sourceTree = "<group>"; };
+		7D0CD4BB1BFDB978001335B5 /* UIView+NIM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NIM.h"; sourceTree = "<group>"; };
+		7D0CD4BC1BFDB978001335B5 /* UIView+NIM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NIM.m"; sourceTree = "<group>"; };
+		7D0CD4BE1BFDB978001335B5 /* NIMPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMPageView.h; sourceTree = "<group>"; };
+		7D0CD4BF1BFDB978001335B5 /* NIMPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIMPageView.m; sourceTree = "<group>"; };
+		7D0CD4C11BFDB978001335B5 /* NTESSessionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESSessionConfig.h; sourceTree = "<group>"; };
+		7D0CD4C21BFDB978001335B5 /* NTESSessionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESSessionConfig.m; sourceTree = "<group>"; };
+		7D0CD4C41BFDB978001335B5 /* NIMInputAudioRecordIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMInputAudioRecordIndicatorView.h; sourceTree = "<group>"; };
+		7D0CD4C51BFDB978001335B5 /* NIMInputAudioRecordIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIMInputAudioRecordIndicatorView.m; sourceTree = "<group>"; };
+		7D0CD4C61BFDB978001335B5 /* NIMInputEmoticonButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMInputEmoticonButton.h; sourceTree = "<group>"; };
+		7D0CD4C71BFDB978001335B5 /* NIMInputEmoticonButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIMInputEmoticonButton.m; sourceTree = "<group>"; };
+		7D0CD4C81BFDB978001335B5 /* NIMInputEmoticonContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMInputEmoticonContainerView.h; sourceTree = "<group>"; };
+		7D0CD4C91BFDB978001335B5 /* NIMInputEmoticonContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIMInputEmoticonContainerView.m; sourceTree = "<group>"; };
+		7D0CD4CA1BFDB978001335B5 /* NIMInputEmoticonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMInputEmoticonDefine.h; sourceTree = "<group>"; };
+		7D0CD4CB1BFDB978001335B5 /* NIMInputEmoticonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMInputEmoticonManager.h; sourceTree = "<group>"; };
+		7D0CD4CC1BFDB978001335B5 /* NIMInputEmoticonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIMInputEmoticonManager.m; sourceTree = "<group>"; };
+		7D0CD4CD1BFDB978001335B5 /* NIMInputEmoticonTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMInputEmoticonTabView.h; sourceTree = "<group>"; };
+		7D0CD4CE1BFDB978001335B5 /* NIMInputEmoticonTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIMInputEmoticonTabView.m; sourceTree = "<group>"; };
+		7D0CD4CF1BFDB978001335B5 /* NIMInputMoreContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMInputMoreContainerView.h; sourceTree = "<group>"; };
+		7D0CD4D01BFDB978001335B5 /* NIMInputMoreContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIMInputMoreContainerView.m; sourceTree = "<group>"; };
+		7D0CD4D11BFDB978001335B5 /* NIMInputTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMInputTextView.h; sourceTree = "<group>"; };
+		7D0CD4D21BFDB978001335B5 /* NIMInputTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIMInputTextView.m; sourceTree = "<group>"; };
+		7D0CD4D31BFDB978001335B5 /* NIMInputToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMInputToolBar.h; sourceTree = "<group>"; };
+		7D0CD4D41BFDB978001335B5 /* NIMInputToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIMInputToolBar.m; sourceTree = "<group>"; };
+		7D0CD4D51BFDB978001335B5 /* NIMInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMInputView.h; sourceTree = "<group>"; };
+		7D0CD4D61BFDB978001335B5 /* NIMInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIMInputView.m; sourceTree = "<group>"; };
+		7D0CD4D81BFDB978001335B5 /* NIMMediaItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMMediaItem.h; sourceTree = "<group>"; };
+		7D0CD4D91BFDB978001335B5 /* NIMMediaItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIMMediaItem.m; sourceTree = "<group>"; };
+		7D0CD4DA1BFDB978001335B5 /* NIMUIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMUIConfig.h; sourceTree = "<group>"; };
+		7D0CD4DB1BFDB978001335B5 /* NIMUIConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIMUIConfig.m; sourceTree = "<group>"; };
+		7D0CD4DD1BFDB979001335B5 /* NIMCellConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMCellConfig.h; sourceTree = "<group>"; };
+		7D0CD4DE1BFDB979001335B5 /* NIMInputProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMInputProtocol.h; sourceTree = "<group>"; };
+		7D0CD4DF1BFDB979001335B5 /* NIMKitMessageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMKitMessageProvider.h; sourceTree = "<group>"; };
+		7D0CD4E01BFDB979001335B5 /* NIMMediaManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMMediaManagerProtocol.h; sourceTree = "<group>"; };
+		7D0CD4E11BFDB979001335B5 /* NIMSessionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMSessionConfig.h; sourceTree = "<group>"; };
 		7D96A8F91BFB2A8400B7625B /* InputViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InputViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D96A8FD1BFB2A8400B7625B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7D96A9061BFB2A8400B7625B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D96A9081BFB2A8400B7625B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D96A90B1BFB2A8400B7625B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D96A90D1BFB2A8400B7625B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D96A9171BFB2ABC00B7625B /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
-		7D96A9181BFB2ABC00B7625B /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
-		7D96A9191BFB2ABC00B7625B /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
-		7D96A91A1BFB2ABC00B7625B /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
-		7D96A91B1BFB2ABC00B7625B /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		7D96A91C1BFB2ABC00B7625B /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		7D96A91E1BFB2ABC00B7625B /* JHComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHComposeViewController.h; sourceTree = "<group>"; };
 		7D96A91F1BFB2ABC00B7625B /* JHComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHComposeViewController.m; sourceTree = "<group>"; };
 		7D96A9221BFB2ABC00B7625B /* JHMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHMacro.h; sourceTree = "<group>"; };
 		7D96A9231BFB2ABC00B7625B /* JHMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHMacro.m; sourceTree = "<group>"; };
-		7D96A9251BFB2ABC00B7625B /* JHEmotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotion.h; sourceTree = "<group>"; };
-		7D96A9261BFB2ABC00B7625B /* JHEmotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotion.m; sourceTree = "<group>"; };
-		7D96A9271BFB2ABC00B7625B /* JHEmotionAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionAttachment.h; sourceTree = "<group>"; };
-		7D96A9281BFB2ABC00B7625B /* JHEmotionAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionAttachment.m; sourceTree = "<group>"; };
 		7D96A92A1BFB2ABC00B7625B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7D96A92B1BFB2ABC00B7625B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7D96A92D1BFB2ABC00B7625B /* MJDictionaryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDictionaryCache.h; sourceTree = "<group>"; };
@@ -91,29 +175,6 @@
 		7D96A9411BFB2ABC00B7625B /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
 		7D96A9421BFB2ABC00B7625B /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
 		7D96A9431BFB2ABC00B7625B /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
-		7D96A9451BFB2ABC00B7625B /* JHEmotionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionTool.h; sourceTree = "<group>"; };
-		7D96A9461BFB2ABC00B7625B /* JHEmotionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionTool.m; sourceTree = "<group>"; };
-		7D96A9491BFB2ABC00B7625B /* JHEmotionGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionGridView.h; sourceTree = "<group>"; };
-		7D96A94A1BFB2ABC00B7625B /* JHEmotionGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionGridView.m; sourceTree = "<group>"; };
-		7D96A94B1BFB2ABC00B7625B /* JHEmotionKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionKeyboard.h; sourceTree = "<group>"; };
-		7D96A94C1BFB2ABC00B7625B /* JHEmotionKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionKeyboard.m; sourceTree = "<group>"; };
-		7D96A94D1BFB2ABC00B7625B /* JHEmotionListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionListView.h; sourceTree = "<group>"; };
-		7D96A94E1BFB2ABC00B7625B /* JHEmotionListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionListView.m; sourceTree = "<group>"; };
-		7D96A94F1BFB2ABC00B7625B /* JHEmotionPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionPopView.h; sourceTree = "<group>"; };
-		7D96A9501BFB2ABC00B7625B /* JHEmotionPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionPopView.m; sourceTree = "<group>"; };
-		7D96A9511BFB2ABC00B7625B /* JHEmotionPopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHEmotionPopView.xib; sourceTree = "<group>"; };
-		7D96A9521BFB2ABC00B7625B /* JHEmotionTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionTextView.h; sourceTree = "<group>"; };
-		7D96A9531BFB2ABC00B7625B /* JHEmotionTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionTextView.m; sourceTree = "<group>"; };
-		7D96A9541BFB2ABC00B7625B /* JHEmotionToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionToolbar.h; sourceTree = "<group>"; };
-		7D96A9551BFB2ABC00B7625B /* JHEmotionToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionToolbar.m; sourceTree = "<group>"; };
-		7D96A9561BFB2ABC00B7625B /* JHEmotionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHEmotionView.h; sourceTree = "<group>"; };
-		7D96A9571BFB2ABC00B7625B /* JHEmotionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHEmotionView.m; sourceTree = "<group>"; };
-		7D96A9581BFB2ABC00B7625B /* JHComposePhotosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHComposePhotosView.h; sourceTree = "<group>"; };
-		7D96A9591BFB2ABC00B7625B /* JHComposePhotosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHComposePhotosView.m; sourceTree = "<group>"; };
-		7D96A95A1BFB2ABC00B7625B /* JHComposeToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHComposeToolbar.h; sourceTree = "<group>"; };
-		7D96A95B1BFB2ABC00B7625B /* JHComposeToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHComposeToolbar.m; sourceTree = "<group>"; };
-		7D96A95C1BFB2ABC00B7625B /* JHTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTextView.h; sourceTree = "<group>"; };
-		7D96A95D1BFB2ABC00B7625B /* JHTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTextView.m; sourceTree = "<group>"; };
 		7D96A97D1BFB2B0400B7625B /* EmotionIcons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = EmotionIcons; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +189,188 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D0CD3FD1BFDB043001335B5 /* JHInputView */ = {
+			isa = PBXGroup;
+			children = (
+				7D0CD3FE1BFDB088001335B5 /* Category */,
+				7D0CD4051BFDB088001335B5 /* Model */,
+				7D0CD40A1BFDB088001335B5 /* Tool */,
+				7D0CD40D1BFDB088001335B5 /* View */,
+			);
+			path = JHInputView;
+			sourceTree = "<group>";
+		};
+		7D0CD3FE1BFDB088001335B5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7D0CD3FF1BFDB088001335B5 /* NSString+Emoji.h */,
+				7D0CD4001BFDB088001335B5 /* NSString+Emoji.m */,
+				7D0CD4011BFDB088001335B5 /* UIImage+Extension.h */,
+				7D0CD4021BFDB088001335B5 /* UIImage+Extension.m */,
+				7D0CD4031BFDB088001335B5 /* UIView+Extension.h */,
+				7D0CD4041BFDB088001335B5 /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7D0CD4051BFDB088001335B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D0CD4061BFDB088001335B5 /* JHEmotion.h */,
+				7D0CD4071BFDB088001335B5 /* JHEmotion.m */,
+				7D0CD4081BFDB088001335B5 /* JHEmotionAttachment.h */,
+				7D0CD4091BFDB088001335B5 /* JHEmotionAttachment.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7D0CD40A1BFDB088001335B5 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				7D0CD40B1BFDB088001335B5 /* JHEmotionTool.h */,
+				7D0CD40C1BFDB088001335B5 /* JHEmotionTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		7D0CD40D1BFDB088001335B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7D0CD40E1BFDB088001335B5 /* EmotionKeyboard */,
+				7D0CD41E1BFDB088001335B5 /* JHComposePhotosView.h */,
+				7D0CD41F1BFDB088001335B5 /* JHComposePhotosView.m */,
+				7D0CD4201BFDB088001335B5 /* JHComposeToolbar.h */,
+				7D0CD4211BFDB088001335B5 /* JHComposeToolbar.m */,
+				7D0CD4221BFDB088001335B5 /* JHTextView.h */,
+				7D0CD4231BFDB088001335B5 /* JHTextView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7D0CD40E1BFDB088001335B5 /* EmotionKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7D0CD40F1BFDB088001335B5 /* JHEmotionGridView.h */,
+				7D0CD4101BFDB088001335B5 /* JHEmotionGridView.m */,
+				7D0CD4111BFDB088001335B5 /* JHEmotionKeyboard.h */,
+				7D0CD4121BFDB088001335B5 /* JHEmotionKeyboard.m */,
+				7D0CD4131BFDB088001335B5 /* JHEmotionListView.h */,
+				7D0CD4141BFDB088001335B5 /* JHEmotionListView.m */,
+				7D0CD4151BFDB088001335B5 /* JHEmotionPopView.h */,
+				7D0CD4161BFDB088001335B5 /* JHEmotionPopView.m */,
+				7D0CD4171BFDB088001335B5 /* JHEmotionPopView.xib */,
+				7D0CD4181BFDB088001335B5 /* JHEmotionTextView.h */,
+				7D0CD4191BFDB088001335B5 /* JHEmotionTextView.m */,
+				7D0CD41A1BFDB088001335B5 /* JHEmotionToolbar.h */,
+				7D0CD41B1BFDB088001335B5 /* JHEmotionToolbar.m */,
+				7D0CD41C1BFDB088001335B5 /* JHEmotionView.h */,
+				7D0CD41D1BFDB088001335B5 /* JHEmotionView.m */,
+			);
+			path = EmotionKeyboard;
+			sourceTree = "<group>";
+		};
+		7D0CD4351BFDB0A0001335B5 /* NIMInputView */ = {
+			isa = PBXGroup;
+			children = (
+				7D0CD4B61BFDB978001335B5 /* Category */,
+				7D0CD4BD1BFDB978001335B5 /* Common */,
+				7D0CD4C01BFDB978001335B5 /* Config */,
+				7D0CD4C31BFDB978001335B5 /* Input */,
+				7D0CD4D71BFDB978001335B5 /* Model */,
+				7D0CD4DC1BFDB979001335B5 /* Protocols */,
+				7D0CD4761BFDB2A9001335B5 /* Session */,
+			);
+			path = NIMInputView;
+			sourceTree = "<group>";
+		};
+		7D0CD4761BFDB2A9001335B5 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				7D0CD4771BFDB2A9001335B5 /* NIMSession.h */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		7D0CD4B61BFDB978001335B5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7D0CD4B71BFDB978001335B5 /* NSString+NIM.h */,
+				7D0CD4B81BFDB978001335B5 /* NSString+NIM.m */,
+				7D0CD4B91BFDB978001335B5 /* UIImage+NIM.h */,
+				7D0CD4BA1BFDB978001335B5 /* UIImage+NIM.m */,
+				7D0CD4BB1BFDB978001335B5 /* UIView+NIM.h */,
+				7D0CD4BC1BFDB978001335B5 /* UIView+NIM.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7D0CD4BD1BFDB978001335B5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7D0CD4BE1BFDB978001335B5 /* NIMPageView.h */,
+				7D0CD4BF1BFDB978001335B5 /* NIMPageView.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7D0CD4C01BFDB978001335B5 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				7D0CD4C11BFDB978001335B5 /* NTESSessionConfig.h */,
+				7D0CD4C21BFDB978001335B5 /* NTESSessionConfig.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		7D0CD4C31BFDB978001335B5 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				7D0CD4CB1BFDB978001335B5 /* NIMInputEmoticonManager.h */,
+				7D0CD4C41BFDB978001335B5 /* NIMInputAudioRecordIndicatorView.h */,
+				7D0CD4C51BFDB978001335B5 /* NIMInputAudioRecordIndicatorView.m */,
+				7D0CD4C61BFDB978001335B5 /* NIMInputEmoticonButton.h */,
+				7D0CD4C71BFDB978001335B5 /* NIMInputEmoticonButton.m */,
+				7D0CD4C81BFDB978001335B5 /* NIMInputEmoticonContainerView.h */,
+				7D0CD4C91BFDB978001335B5 /* NIMInputEmoticonContainerView.m */,
+				7D0CD4CA1BFDB978001335B5 /* NIMInputEmoticonDefine.h */,
+				7D0CD4CC1BFDB978001335B5 /* NIMInputEmoticonManager.m */,
+				7D0CD4CD1BFDB978001335B5 /* NIMInputEmoticonTabView.h */,
+				7D0CD4CE1BFDB978001335B5 /* NIMInputEmoticonTabView.m */,
+				7D0CD4CF1BFDB978001335B5 /* NIMInputMoreContainerView.h */,
+				7D0CD4D01BFDB978001335B5 /* NIMInputMoreContainerView.m */,
+				7D0CD4D11BFDB978001335B5 /* NIMInputTextView.h */,
+				7D0CD4D21BFDB978001335B5 /* NIMInputTextView.m */,
+				7D0CD4D31BFDB978001335B5 /* NIMInputToolBar.h */,
+				7D0CD4D41BFDB978001335B5 /* NIMInputToolBar.m */,
+				7D0CD4D51BFDB978001335B5 /* NIMInputView.h */,
+				7D0CD4D61BFDB978001335B5 /* NIMInputView.m */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		7D0CD4D71BFDB978001335B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D0CD4D81BFDB978001335B5 /* NIMMediaItem.h */,
+				7D0CD4D91BFDB978001335B5 /* NIMMediaItem.m */,
+				7D0CD4DA1BFDB978001335B5 /* NIMUIConfig.h */,
+				7D0CD4DB1BFDB978001335B5 /* NIMUIConfig.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7D0CD4DC1BFDB979001335B5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7D0CD4DD1BFDB979001335B5 /* NIMCellConfig.h */,
+				7D0CD4DE1BFDB979001335B5 /* NIMInputProtocol.h */,
+				7D0CD4DF1BFDB979001335B5 /* NIMKitMessageProvider.h */,
+				7D0CD4E01BFDB979001335B5 /* NIMMediaManagerProtocol.h */,
+				7D0CD4E11BFDB979001335B5 /* NIMSessionConfig.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		7D96A8F01BFB2A8400B7625B = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +403,7 @@
 		7D96A8FC1BFB2A8400B7625B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7D0CD4B41BFDB652001335B5 /* NIMKitResouce.bundle */,
 				7D96A97D1BFB2B0400B7625B /* EmotionIcons */,
 				7D96A8FD1BFB2A8400B7625B /* main.m */,
 			);
@@ -169,28 +413,13 @@
 		7D96A9151BFB2ABC00B7625B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7D96A9161BFB2ABC00B7625B /* Category */,
+				7D0CD4351BFDB0A0001335B5 /* NIMInputView */,
+				7D0CD3FD1BFDB043001335B5 /* JHInputView */,
 				7D96A91D1BFB2ABC00B7625B /* Controllers */,
 				7D96A9211BFB2ABC00B7625B /* Macro */,
-				7D96A9241BFB2ABC00B7625B /* Model */,
 				7D96A9291BFB2ABC00B7625B /* Others */,
-				7D96A9441BFB2ABC00B7625B /* Tool */,
-				7D96A9471BFB2ABC00B7625B /* View */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		7D96A9161BFB2ABC00B7625B /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				7D96A9171BFB2ABC00B7625B /* NSString+Emoji.h */,
-				7D96A9181BFB2ABC00B7625B /* NSString+Emoji.m */,
-				7D96A9191BFB2ABC00B7625B /* UIImage+Extension.h */,
-				7D96A91A1BFB2ABC00B7625B /* UIImage+Extension.m */,
-				7D96A91B1BFB2ABC00B7625B /* UIView+Extension.h */,
-				7D96A91C1BFB2ABC00B7625B /* UIView+Extension.m */,
-			);
-			path = Category;
 			sourceTree = "<group>";
 		};
 		7D96A91D1BFB2ABC00B7625B /* Controllers */ = {
@@ -198,6 +427,8 @@
 			children = (
 				7D96A91E1BFB2ABC00B7625B /* JHComposeViewController.h */,
 				7D96A91F1BFB2ABC00B7625B /* JHComposeViewController.m */,
+				7D0CD4361BFDB0F1001335B5 /* NIMViewController.h */,
+				7D0CD4371BFDB0F1001335B5 /* NIMViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -205,21 +436,11 @@
 		7D96A9211BFB2ABC00B7625B /* Macro */ = {
 			isa = PBXGroup;
 			children = (
+				7D0CD46A1BFDB276001335B5 /* NIMGlobalMacro.h */,
 				7D96A9221BFB2ABC00B7625B /* JHMacro.h */,
 				7D96A9231BFB2ABC00B7625B /* JHMacro.m */,
 			);
 			path = Macro;
-			sourceTree = "<group>";
-		};
-		7D96A9241BFB2ABC00B7625B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				7D96A9251BFB2ABC00B7625B /* JHEmotion.h */,
-				7D96A9261BFB2ABC00B7625B /* JHEmotion.m */,
-				7D96A9271BFB2ABC00B7625B /* JHEmotionAttachment.h */,
-				7D96A9281BFB2ABC00B7625B /* JHEmotionAttachment.m */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		7D96A9291BFB2ABC00B7625B /* Others */ = {
@@ -260,51 +481,6 @@
 				7D96A9431BFB2ABC00B7625B /* NSString+MJExtension.m */,
 			);
 			path = MJExtension;
-			sourceTree = "<group>";
-		};
-		7D96A9441BFB2ABC00B7625B /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				7D96A9451BFB2ABC00B7625B /* JHEmotionTool.h */,
-				7D96A9461BFB2ABC00B7625B /* JHEmotionTool.m */,
-			);
-			path = Tool;
-			sourceTree = "<group>";
-		};
-		7D96A9471BFB2ABC00B7625B /* View */ = {
-			isa = PBXGroup;
-			children = (
-				7D96A9481BFB2ABC00B7625B /* EmotionKeyboard */,
-				7D96A9581BFB2ABC00B7625B /* JHComposePhotosView.h */,
-				7D96A9591BFB2ABC00B7625B /* JHComposePhotosView.m */,
-				7D96A95A1BFB2ABC00B7625B /* JHComposeToolbar.h */,
-				7D96A95B1BFB2ABC00B7625B /* JHComposeToolbar.m */,
-				7D96A95C1BFB2ABC00B7625B /* JHTextView.h */,
-				7D96A95D1BFB2ABC00B7625B /* JHTextView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		7D96A9481BFB2ABC00B7625B /* EmotionKeyboard */ = {
-			isa = PBXGroup;
-			children = (
-				7D96A9491BFB2ABC00B7625B /* JHEmotionGridView.h */,
-				7D96A94A1BFB2ABC00B7625B /* JHEmotionGridView.m */,
-				7D96A94B1BFB2ABC00B7625B /* JHEmotionKeyboard.h */,
-				7D96A94C1BFB2ABC00B7625B /* JHEmotionKeyboard.m */,
-				7D96A94D1BFB2ABC00B7625B /* JHEmotionListView.h */,
-				7D96A94E1BFB2ABC00B7625B /* JHEmotionListView.m */,
-				7D96A94F1BFB2ABC00B7625B /* JHEmotionPopView.h */,
-				7D96A9501BFB2ABC00B7625B /* JHEmotionPopView.m */,
-				7D96A9511BFB2ABC00B7625B /* JHEmotionPopView.xib */,
-				7D96A9521BFB2ABC00B7625B /* JHEmotionTextView.h */,
-				7D96A9531BFB2ABC00B7625B /* JHEmotionTextView.m */,
-				7D96A9541BFB2ABC00B7625B /* JHEmotionToolbar.h */,
-				7D96A9551BFB2ABC00B7625B /* JHEmotionToolbar.m */,
-				7D96A9561BFB2ABC00B7625B /* JHEmotionView.h */,
-				7D96A9571BFB2ABC00B7625B /* JHEmotionView.m */,
-			);
-			path = EmotionKeyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,8 +541,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D96A97E1BFB2B0400B7625B /* EmotionIcons in Resources */,
-				7D96A9761BFB2ABC00B7625B /* JHEmotionPopView.xib in Resources */,
 				7D96A90C1BFB2A8400B7625B /* LaunchScreen.storyboard in Resources */,
+				7D0CD4B51BFDB652001335B5 /* NIMKitResouce.bundle in Resources */,
+				7D0CD42E1BFDB088001335B5 /* JHEmotionPopView.xib in Resources */,
 				7D96A9091BFB2A8400B7625B /* Assets.xcassets in Resources */,
 				7D96A9071BFB2A8400B7625B /* Main.storyboard in Resources */,
 			);
@@ -379,37 +556,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D0CD4EB1BFDB979001335B5 /* NIMInputEmoticonTabView.m in Sources */,
+				7D0CD4261BFDB088001335B5 /* UIView+Extension.m in Sources */,
+				7D0CD4E81BFDB979001335B5 /* NIMInputEmoticonButton.m in Sources */,
 				7D96A96D1BFB2ABC00B7625B /* NSObject+MJCoding.m in Sources */,
+				7D0CD4E41BFDB979001335B5 /* UIView+NIM.m in Sources */,
+				7D0CD42C1BFDB088001335B5 /* JHEmotionListView.m in Sources */,
+				7D0CD4E71BFDB979001335B5 /* NIMInputAudioRecordIndicatorView.m in Sources */,
+				7D0CD4281BFDB088001335B5 /* JHEmotionAttachment.m in Sources */,
+				7D0CD4321BFDB088001335B5 /* JHComposePhotosView.m in Sources */,
 				7D96A96B1BFB2ABC00B7625B /* MJPropertyType.m in Sources */,
-				7D96A9741BFB2ABC00B7625B /* JHEmotionListView.m in Sources */,
+				7D0CD4E61BFDB979001335B5 /* NTESSessionConfig.m in Sources */,
+				7D0CD4251BFDB088001335B5 /* UIImage+Extension.m in Sources */,
+				7D0CD4E51BFDB979001335B5 /* NIMPageView.m in Sources */,
+				7D0CD4291BFDB088001335B5 /* JHEmotionTool.m in Sources */,
+				7D0CD4EE1BFDB979001335B5 /* NIMInputToolBar.m in Sources */,
+				7D0CD42B1BFDB088001335B5 /* JHEmotionKeyboard.m in Sources */,
+				7D0CD4F11BFDB979001335B5 /* NIMUIConfig.m in Sources */,
+				7D0CD4271BFDB088001335B5 /* JHEmotion.m in Sources */,
+				7D0CD4241BFDB088001335B5 /* NSString+Emoji.m in Sources */,
+				7D0CD4341BFDB088001335B5 /* JHTextView.m in Sources */,
+				7D0CD4EC1BFDB979001335B5 /* NIMInputMoreContainerView.m in Sources */,
+				7D0CD4E31BFDB979001335B5 /* UIImage+NIM.m in Sources */,
+				7D0CD4311BFDB088001335B5 /* JHEmotionView.m in Sources */,
+				7D0CD4331BFDB088001335B5 /* JHComposeToolbar.m in Sources */,
 				7D96A9671BFB2ABC00B7625B /* MJExtensionConst.m in Sources */,
-				7D96A97A1BFB2ABC00B7625B /* JHComposePhotosView.m in Sources */,
 				7D96A96A1BFB2ABC00B7625B /* MJPropertyKey.m in Sources */,
+				7D0CD4F01BFDB979001335B5 /* NIMMediaItem.m in Sources */,
 				7D96A96E1BFB2ABC00B7625B /* NSObject+MJKeyValue.m in Sources */,
-				7D96A9711BFB2ABC00B7625B /* JHEmotionTool.m in Sources */,
-				7D96A9731BFB2ABC00B7625B /* JHEmotionKeyboard.m in Sources */,
-				7D96A9631BFB2ABC00B7625B /* JHEmotion.m in Sources */,
-				7D96A95F1BFB2ABC00B7625B /* UIImage+Extension.m in Sources */,
-				7D96A97C1BFB2ABC00B7625B /* JHTextView.m in Sources */,
-				7D96A9791BFB2ABC00B7625B /* JHEmotionView.m in Sources */,
-				7D96A97B1BFB2ABC00B7625B /* JHComposeToolbar.m in Sources */,
+				7D0CD4381BFDB0F1001335B5 /* NIMViewController.m in Sources */,
 				7D96A9681BFB2ABC00B7625B /* MJFoundation.m in Sources */,
+				7D0CD4EA1BFDB979001335B5 /* NIMInputEmoticonManager.m in Sources */,
+				7D0CD4301BFDB088001335B5 /* JHEmotionToolbar.m in Sources */,
+				7D0CD4E91BFDB979001335B5 /* NIMInputEmoticonContainerView.m in Sources */,
 				7D96A9701BFB2ABC00B7625B /* NSString+MJExtension.m in Sources */,
+				7D0CD42F1BFDB088001335B5 /* JHEmotionTextView.m in Sources */,
+				7D0CD4E21BFDB979001335B5 /* NSString+NIM.m in Sources */,
 				7D96A9691BFB2ABC00B7625B /* MJProperty.m in Sources */,
+				7D0CD42A1BFDB088001335B5 /* JHEmotionGridView.m in Sources */,
 				7D96A9651BFB2ABC00B7625B /* AppDelegate.m in Sources */,
-				7D96A9781BFB2ABC00B7625B /* JHEmotionToolbar.m in Sources */,
 				7D96A9661BFB2ABC00B7625B /* MJDictionaryCache.m in Sources */,
-				7D96A9771BFB2ABC00B7625B /* JHEmotionTextView.m in Sources */,
+				7D0CD4EF1BFDB979001335B5 /* NIMInputView.m in Sources */,
 				7D96A9611BFB2ABC00B7625B /* JHComposeViewController.m in Sources */,
-				7D96A9721BFB2ABC00B7625B /* JHEmotionGridView.m in Sources */,
 				7D96A9621BFB2ABC00B7625B /* JHMacro.m in Sources */,
 				7D96A96F1BFB2ABC00B7625B /* NSObject+MJProperty.m in Sources */,
-				7D96A95E1BFB2ABC00B7625B /* NSString+Emoji.m in Sources */,
-				7D96A9601BFB2ABC00B7625B /* UIView+Extension.m in Sources */,
 				7D96A96C1BFB2ABC00B7625B /* NSObject+MJClass.m in Sources */,
-				7D96A9641BFB2ABC00B7625B /* JHEmotionAttachment.m in Sources */,
+				7D0CD4ED1BFDB979001335B5 /* NIMInputTextView.m in Sources */,
 				7D96A8FE1BFB2A8400B7625B /* main.m in Sources */,
-				7D96A9751BFB2ABC00B7625B /* JHEmotionPopView.m in Sources */,
+				7D0CD42D1BFDB088001335B5 /* JHEmotionPopView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +716,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InputViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.pike.InputViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -533,6 +728,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InputViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.pike.InputViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
