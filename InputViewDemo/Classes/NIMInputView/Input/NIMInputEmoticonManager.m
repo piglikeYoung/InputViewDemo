@@ -11,7 +11,7 @@
 #import "NSString+NIM.h"
 
 
-static NSString *const kBundleName = @"NIMKitResouce.bundle";
+static NSString *const kBundleName = @"NIMKitResouce";
 
 @implementation NIMInputEmoticon
 @end

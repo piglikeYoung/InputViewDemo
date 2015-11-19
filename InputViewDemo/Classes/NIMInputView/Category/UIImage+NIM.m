@@ -22,7 +22,7 @@
 
 
 + (UIImage *)nim_imageInKit:(NSString *)imageName{
-    NSString *name = [@"NIMKitResouce.bundle" stringByAppendingPathComponent:imageName];
+    NSString *name = [@"NIMKitResouce" stringByAppendingPathComponent:imageName];
     return [UIImage imageNamed:name];
 }
 

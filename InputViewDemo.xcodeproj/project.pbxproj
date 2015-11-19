@@ -41,7 +41,7 @@
 		7D0CD4EF1BFDB979001335B5 /* NIMInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4D61BFDB978001335B5 /* NIMInputView.m */; };
 		7D0CD4F01BFDB979001335B5 /* NIMMediaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4D91BFDB978001335B5 /* NIMMediaItem.m */; };
 		7D0CD4F11BFDB979001335B5 /* NIMUIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4DB1BFDB978001335B5 /* NIMUIConfig.m */; };
-		7D0CD4F31BFDC1CB001335B5 /* NIMKitResouce.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7D0CD4F21BFDC1CB001335B5 /* NIMKitResouce.bundle */; };
+		7D0CD7B61BFDC319001335B5 /* NIMKitResouce in Resources */ = {isa = PBXBuildFile; fileRef = 7D0CD7B51BFDC319001335B5 /* NIMKitResouce */; };
 		7D96A8FE1BFB2A8400B7625B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A8FD1BFB2A8400B7625B /* main.m */; };
 		7D96A9071BFB2A8400B7625B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D96A9051BFB2A8400B7625B /* Main.storyboard */; };
 		7D96A9091BFB2A8400B7625B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D96A9081BFB2A8400B7625B /* Assets.xcassets */; };
@@ -139,7 +139,7 @@
 		7D0CD4DF1BFDB979001335B5 /* NIMKitMessageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMKitMessageProvider.h; sourceTree = "<group>"; };
 		7D0CD4E01BFDB979001335B5 /* NIMMediaManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMMediaManagerProtocol.h; sourceTree = "<group>"; };
 		7D0CD4E11BFDB979001335B5 /* NIMSessionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMSessionConfig.h; sourceTree = "<group>"; };
-		7D0CD4F21BFDC1CB001335B5 /* NIMKitResouce.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NIMKitResouce.bundle; sourceTree = "<group>"; };
+		7D0CD7B51BFDC319001335B5 /* NIMKitResouce */ = {isa = PBXFileReference; lastKnownFileType = folder; path = NIMKitResouce; sourceTree = "<group>"; };
 		7D96A8F91BFB2A8400B7625B /* InputViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InputViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D96A8FD1BFB2A8400B7625B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7D96A9061BFB2A8400B7625B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -403,7 +403,7 @@
 		7D96A8FC1BFB2A8400B7625B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7D0CD4F21BFDC1CB001335B5 /* NIMKitResouce.bundle */,
+				7D0CD7B51BFDC319001335B5 /* NIMKitResouce */,
 				7D96A97D1BFB2B0400B7625B /* EmotionIcons */,
 				7D96A8FD1BFB2A8400B7625B /* main.m */,
 			);
@@ -542,10 +542,10 @@
 			files = (
 				7D96A97E1BFB2B0400B7625B /* EmotionIcons in Resources */,
 				7D96A90C1BFB2A8400B7625B /* LaunchScreen.storyboard in Resources */,
-				7D0CD4F31BFDC1CB001335B5 /* NIMKitResouce.bundle in Resources */,
 				7D0CD42E1BFDB088001335B5 /* JHEmotionPopView.xib in Resources */,
 				7D96A9091BFB2A8400B7625B /* Assets.xcassets in Resources */,
 				7D96A9071BFB2A8400B7625B /* Main.storyboard in Resources */,
+				7D0CD7B61BFDC319001335B5 /* NIMKitResouce in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
