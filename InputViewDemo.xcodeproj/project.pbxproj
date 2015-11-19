@@ -25,7 +25,6 @@
 		7D0CD4331BFDB088001335B5 /* JHComposeToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4211BFDB088001335B5 /* JHComposeToolbar.m */; };
 		7D0CD4341BFDB088001335B5 /* JHTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4231BFDB088001335B5 /* JHTextView.m */; };
 		7D0CD4381BFDB0F1001335B5 /* NIMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4371BFDB0F1001335B5 /* NIMViewController.m */; };
-		7D0CD4B51BFDB652001335B5 /* NIMKitResouce.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7D0CD4B41BFDB652001335B5 /* NIMKitResouce.bundle */; };
 		7D0CD4E21BFDB979001335B5 /* NSString+NIM.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4B81BFDB978001335B5 /* NSString+NIM.m */; };
 		7D0CD4E31BFDB979001335B5 /* UIImage+NIM.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4BA1BFDB978001335B5 /* UIImage+NIM.m */; };
 		7D0CD4E41BFDB979001335B5 /* UIView+NIM.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4BC1BFDB978001335B5 /* UIView+NIM.m */; };
@@ -42,6 +41,7 @@
 		7D0CD4EF1BFDB979001335B5 /* NIMInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4D61BFDB978001335B5 /* NIMInputView.m */; };
 		7D0CD4F01BFDB979001335B5 /* NIMMediaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4D91BFDB978001335B5 /* NIMMediaItem.m */; };
 		7D0CD4F11BFDB979001335B5 /* NIMUIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CD4DB1BFDB978001335B5 /* NIMUIConfig.m */; };
+		7D0CD4F31BFDC1CB001335B5 /* NIMKitResouce.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7D0CD4F21BFDC1CB001335B5 /* NIMKitResouce.bundle */; };
 		7D96A8FE1BFB2A8400B7625B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96A8FD1BFB2A8400B7625B /* main.m */; };
 		7D96A9071BFB2A8400B7625B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D96A9051BFB2A8400B7625B /* Main.storyboard */; };
 		7D96A9091BFB2A8400B7625B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D96A9081BFB2A8400B7625B /* Assets.xcassets */; };
@@ -101,7 +101,6 @@
 		7D0CD4371BFDB0F1001335B5 /* NIMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIMViewController.m; sourceTree = "<group>"; };
 		7D0CD46A1BFDB276001335B5 /* NIMGlobalMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIMGlobalMacro.h; sourceTree = "<group>"; };
 		7D0CD4771BFDB2A9001335B5 /* NIMSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMSession.h; sourceTree = "<group>"; };
-		7D0CD4B41BFDB652001335B5 /* NIMKitResouce.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NIMKitResouce.bundle; sourceTree = "<group>"; };
 		7D0CD4B71BFDB978001335B5 /* NSString+NIM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NIM.h"; sourceTree = "<group>"; };
 		7D0CD4B81BFDB978001335B5 /* NSString+NIM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NIM.m"; sourceTree = "<group>"; };
 		7D0CD4B91BFDB978001335B5 /* UIImage+NIM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NIM.h"; sourceTree = "<group>"; };
@@ -140,6 +139,7 @@
 		7D0CD4DF1BFDB979001335B5 /* NIMKitMessageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMKitMessageProvider.h; sourceTree = "<group>"; };
 		7D0CD4E01BFDB979001335B5 /* NIMMediaManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMMediaManagerProtocol.h; sourceTree = "<group>"; };
 		7D0CD4E11BFDB979001335B5 /* NIMSessionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMSessionConfig.h; sourceTree = "<group>"; };
+		7D0CD4F21BFDC1CB001335B5 /* NIMKitResouce.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NIMKitResouce.bundle; sourceTree = "<group>"; };
 		7D96A8F91BFB2A8400B7625B /* InputViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InputViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D96A8FD1BFB2A8400B7625B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7D96A9061BFB2A8400B7625B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -403,7 +403,7 @@
 		7D96A8FC1BFB2A8400B7625B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7D0CD4B41BFDB652001335B5 /* NIMKitResouce.bundle */,
+				7D0CD4F21BFDC1CB001335B5 /* NIMKitResouce.bundle */,
 				7D96A97D1BFB2B0400B7625B /* EmotionIcons */,
 				7D96A8FD1BFB2A8400B7625B /* main.m */,
 			);
@@ -542,7 +542,7 @@
 			files = (
 				7D96A97E1BFB2B0400B7625B /* EmotionIcons in Resources */,
 				7D96A90C1BFB2A8400B7625B /* LaunchScreen.storyboard in Resources */,
-				7D0CD4B51BFDB652001335B5 /* NIMKitResouce.bundle in Resources */,
+				7D0CD4F31BFDC1CB001335B5 /* NIMKitResouce.bundle in Resources */,
 				7D0CD42E1BFDB088001335B5 /* JHEmotionPopView.xib in Resources */,
 				7D96A9091BFB2A8400B7625B /* Assets.xcassets in Resources */,
 				7D96A9071BFB2A8400B7625B /* Main.storyboard in Resources */,
